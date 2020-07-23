@@ -2,11 +2,11 @@ var db = require("../models")
 module.exports = function(app) {
 
     // GET route for getting all of the closetohome -- tested
-    app.get("/api/closetohome", function(req, res) {
-      db.Family.findAll({}).then(response=>{
-        res.json(response)
-      })
-    });
+  app.get("/api/closetohome", function (req, res) {
+    db.Family.findAll({}).then(response => {
+      res.json(response)
+    })
+  });
   
     // POST route for saving a new closetohome. We can create closehome with the data in req.body -- tested
     app.post("/api/closetohome", function(req, res) {
