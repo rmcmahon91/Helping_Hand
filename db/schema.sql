@@ -1,4 +1,5 @@
 -- Drops the closetohome db if it exists currently
+
 DROP DATABASE IF EXISTS closetohome;
 
 -- Creates the closetohome database
