@@ -2,8 +2,11 @@ Helping Hand
 
 User Story
 
-As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
-
+With COVID affecting everyone's live. Help Handing is design to give the less fortunate a boost in getting their basic needs.
 
 Business Context
-A consumer will reach their fitness goals quicker when they track their workout progress.
+A consumer will be able to keep in close contact with their ones and assure they recieve all their basic needs during these trying times.
+
+Link to delpoyment page:
+
+https://helpinghand2.herokuapp.com/
