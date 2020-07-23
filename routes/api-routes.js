@@ -2,6 +2,7 @@ var db = require("../models")
 module.exports = function(app) {
 
     // GET route for getting all of the closetohome -- tested
+  
   app.get("/api/closetohome", function (req, res) {
     db.Family.findAll({}).then(response => {
       res.json(response)
